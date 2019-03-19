@@ -1,0 +1,193 @@
+/***** BASE STYLES *****/
+body {
+  font-family: "Montserrat" ,bold ,regular;
+  color: #00000;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4 {
+   color: #00000;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+/***** HEADER *****/
+
+header {
+   height: 112px;
+   border-bottom: 3px solid #77a466;
+   margin: 0 auto;
+}
+header h1 {
+   float: left;
+   margin: 0;
+   padding: 38px 0;
+}
+header h1 span {
+   color:  #77a466;
+}
+header nav {
+   float: right;
+   padding: 46px 0;
+}
+header nav ul {
+   margin: 0;
+   padding: 0;
+}
+header nav ul li{
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 14px;
+   padding: 0 10px;
+   display: inline;
+}
+header nav ul li a {
+   text-decoration: none;
+   color: #77a466;
+}
+/***** ABOUT *****/
+.about {
+  margin: 0 auto;
+  clear: both;
+  
+}
+.about h2 {
+  color: #77a466;
+  font-size: 18px;
+}
+.about-img {
+  float: left;
+  height: auto;
+}
+.about-image img {
+  border-bottom: 3px solid #77a466;   
+}
+.about p {
+	font-size: 16px;
+	line-height: 25px;
+  padding: 15px 0;
+}
+.info {
+  border-top: 1px solid #bfbfbf;
+}
+.menu-section,
+.reviews-section,
+.contact-section {
+	width: 33%;
+	height: auto;
+	float: left;
+	
+}
+.menu-section h3 {
+  padding: 10px 0;
+  font-size: 12px;
+}
+.reviews-section h3 {
+  padding: 10px 30px;
+  font-size: 12px;
+  
+}
+.contact-section h3 {
+  padding: 10px 30px;
+  font-size: 12px;
+}
+.reviews-section {
+  border-left: 1px solid #bfbfbf;
+  border-right: 1px solid #bfbfbf;
+}
+.menu {
+  list-style: none;
+	padding: 10px 0;
+}
+.menu li {
+	padding: 10px 0;
+	color: #77a466;
+}
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+  padding: 0 30px;
+}
+.address {
+	font-size: 16px;
+	line-height: 24px;
+  padding: 0 30px;
+}
+footer {
+	height: 50px;
+	border-top: 1px solid #bfbfbf;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer h2 {
+  font-size: 16px;
+}
+footer span {
+  color:  #77a466;
+  text-transform: lowercase;
+  font-size: 14px;
+  font-family: oleo-script, cursive;
+}
+  
+/***** Gallery Page *****/
+.seasonal,
+.variety,
+.pick {
+  width: 100%;
+  margin: -4px 0;
+  height: auto;
+}
+header1 a {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: red; 
+}
+
+header1 h5 {
+  font-family:  oleo-script, cursive;
+  font-size: 45px;
+  padding: 0 20px;
+  color: #77a466;
+  text-align: center;
+}
+.img-1 {
+  float: right;
+  width: 30%;
+  padding: 95px 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  color: #ff9933;
+}
+.pick {
+  float: right;
+  margin: 0;
+  border-top: 3px solid #77a466;
+}
+.img-2 {
+  float: left;
+  width: 35%;
+  padding: 100px 42px;
+  font-size: 35px;
+  font-family: 'Indie Flower', cursive;
+  color: #cc0000;
+}
+.variety {
+  float: left;
+  border-top: 3px solid #77a466;
+}
+
+.img-3 {
+  float: right;
+  width: 40%;
+  padding: 100px 35px;
+  font-size: 35px;
+  font-family: 'Indie Flower', cursive;
+  color: #264d00;
+}
+
